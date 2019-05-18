@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "67067573800",
+    "firebase_url": "https://shoryan-92914.firebaseio.com",
+    "project_id": "shoryan-92914",
+    "storage_bucket": "shoryan-92914.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67067573800:android:876eb5b150fd8275",
+        "android_client_info": {
+          "package_name": "com.example.projectui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67067573800-pm8klkd2t5qdj5012fsee5mfd0q9gr7l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsNDQGXhXoCv2iQTmMBRU9-eXXFhoxODY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67067573800-pm8klkd2t5qdj5012fsee5mfd0q9gr7l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

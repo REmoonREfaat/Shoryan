@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_first"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/dimen8"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_rounded_8"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="بحث عن متبرعين"
+        android:textColor="@color/Red"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="المحافظة"
+        android:textColor="@color/colorAccentDark"
+        android:textSize="@dimen/dimen16" />
+
+    <Spinner
+        android:id="@+id/spinnerCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen16"
+        android:layout_marginTop="@dimen/dimen8"
+        android:layout_marginRight="@dimen/dimen16"
+        android:background="@drawable/ic_rounded_button"
+        android:entries="@array/countries"
+        android:padding="@dimen/dimen8"
+        android:prompt="@string/bloodType_prompt"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/dimen16"
+        android:text="اذ لم تجد عينات الدم المطلوبه في العينات المجانيه  من  الأفضل البحث في العينات بمبلغ مالي"
+        android:textColor="@color/Black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="نوع المتبرع"
+        android:textColor="@color/colorAccentDark"
+        android:textSize="@dimen/dimen16" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/dimen16"
+        android:layout_marginTop="@dimen/dimen8"
+        android:layout_marginRight="@dimen/dimen16"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioBtn_paymentFree"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="مجانى"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccentDark"
+            android:textSize="16dp" />
+
+        <RadioButton
+            android:id="@+id/radioBtn_paymentPaid"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="بمقابل مادى"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccentDark"
+            android:textSize="16dp" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_rounded_8"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="من فضلك اختر طريقة العرض"
+        android:textColor="@color/Red"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp">
+
+        <ImageView
+            android:id="@+id/iv__menus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/iv_list" />
+
+        <ImageView
+            android:id="@+id/iv_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/iv_map" />
+    </LinearLayout>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dimen16"
+            android:layout_marginTop="@dimen/dimen8"
+            android:layout_marginRight="@dimen/dimen16"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioBtn_lists"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="قوائم"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccentDark"
+                android:textSize="16dp" />
+
+            <RadioButton
+                android:id="@+id/radioBtn_maps"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="خرائط"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccentDark"
+                android:textSize="16dp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen8"
+            android:layout_marginTop="@dimen/dimen8"
+            android:layout_marginRight="@dimen/dimen8"
+            android:background="@drawable/ic_rounded_button_green"
+            android:text="موافق"
+            android:textColor="@color/White"
+            android:textSize="@dimen/dimen20"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

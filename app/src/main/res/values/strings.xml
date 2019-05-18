@@ -1,0 +1,340 @@
+<resources>
+    <string name="app_name">shoryan haya </string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="main_home">الرئيسية</string>
+    <string name="search">بحث</string>
+    <string name="share">مشاركه</string>
+    <string name="personal">الشخصية</string>
+    <string name="more">More</string>
+
+    <string-array name="gover">
+        <item>المحافظة</item>
+        <item>سوهاج</item>
+        <item>Array Item Two</item>
+        <item>Array Item Three</item>
+    </string-array>
+
+    <!-- Messages -->
+    <string name="set_permissions_in_settings">Go to Settings -> Apps and Notifications ->
+        WorkManager Demo -> App Permissions and grant access to Storage.</string>
+    <string name="cairo">القاهرة</string>
+    <string name="giza">الجيرة</string>
+    <string name="alex">الاسكندرية</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="help">نداء الاستغاثة</string>
+
+
+    <string name="bloodType_prompt">فصيلة الدم</string>
+    <string-array name="blood_type">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+    <string name="et">يجب على المتبرع الحصول على شهادة صحية من المستشفيات او معامل التحاليل تفيد بأنة خالى من الامراض وأن دمة صالح لتبرع بالدم</string>
+    <string-array name="countries">
+        <item>محافظة الوادي الجديد</item>
+
+        <item> محافظة مطروح</item>
+
+        <item> محافظة البحر </item>
+
+        <item> محافظة الجيزة
+ </item>
+        <item> محافظة جنوب سيناء
+ </item>
+        <item> محافظة شمال سيناء
+ </item>
+        <item> محافظة السويس
+ </item>
+        <item> محافظة البحيرة
+ </item>
+        <item> محافظة حلوان
+ </item>
+        <item> محافظة الشرقيّة
+ </item>
+        <item> محافظة الدقهليّة
+ </item>
+        <item> محافظة كفر الشيخ
+ </item>
+        <item> محافظة الإسكندريّة
+ </item>
+        <item> محافظة المنوفيّة
+ </item>
+        <item> محافظة المنيا
+ </item>
+        <item> محافظة الغربيّة
+ </item>
+        <item> محافظة الفيوم
+ </item>
+        <item> محافظة قنا
+ </item>
+        <item> محافظة أسيوط
+ </item>
+        <item> محافظة سوهاج
+ </item>
+        <item> محافظة الإسماعيليّة
+</item>
+        <item> محافظة بني سويف
+ </item>
+        <item> محافظة القليوبيّة
+ </item>
+        <item>محافظة أسوان</item>
+
+        <item> محافظة دمياط
+ </item>
+        <item> محافظة القاهرة
+ </item>
+        <item> محافظة بورسعيد
+ </item>
+        <item> محافظة الأقصر
+ </item>
+        <item> محافظة السادس من أكتوبر
+</item>
+    </string-array>
+
+
+    <string name="weHeadin">ﻣﻦ ﻧﺤﻦ:</string>
+    <string name="weInfo">ﻧﺤﻦ ﻣﺠﻤﻮﻋﺔ ﻣﻦ اﻟﺸﺒﺎب ﻻنتبع ﻷي ﺟﻬﺔ رﺳﻤﯿﺔ نوﻣﻦ ﺑﺄن اﻟﺘﺒﺮع ﺑﺎﻟﺪم ﺿﺮورة ﻹﻧﻘﺎذ ﺣﯿﺎة اﻟﻤﺮﺿﻰ وﻧﻌﻤﻞ ﻋﻠﻰ ﻧﺸﺮ ﺛﻘﺎﻓﺔ اﻟﺘﺒﺮع ﺑﺎﻟﺪم وﻋﻠﻰ اﻟﻘﯿﺎم ﺑﺪور اﻟﻮﺳﯿﻂ ﺑﯿﻦ  اﻟﻤﺮﺿﻰ واﻟﻤﺘﺒﺮﻋﯿﻦ ﺗﺴﻬﯿﻼ ﻋﻠﻰ ذوﯾﻬﻢ ﻣﻬﻤﺔ اﻟﺒﺤﺚ ﻋﻦ ﻣﺘﺒﺮع ﺧﺼﻮﺻﺎ ﻓﺌﺎت اﻟﺪم اﻟﻨﺎدرة</string>
+    <string name="hadfnaHeadin">ﻫﺪﻓﻨﺎ:</string>
+    <string name="hadfnaInfo">ﻫﺪﻓﻨﺎ أن ﻻﯾﻌﺎﻧﻲ اﻟﻤﺮﯾﺾ ﻓﻲ اﻟﺤﺼﻮل ﻋﻠﻰ اﻟﺪم  وأن ﻻ ﯾﻌﺎﻧﻲ اﻟﻤﺮﺿﻰ أﺻﺤﺎب ﻓﺌﺎت اﻟﺪم اﻟﻨﺎدرة ﻓﻲ اﻟﺤﺼﻮل ﻋﻠﯿﻪ</string>
+    <string name="howDoHeadin">ﻛﯿﻒ ﻧﻌﻤﻞ:</string>
+    <string name="howDofnaInfo">
+        ﻧﻌﻤﻞ ﺟﻨﺒﺎ اﻟﻰ ﺟﻨﺐ ﻋﻠﻰ ﺗﻮﻓﯿﺮ اﻟﻤﺘﺒﺮﻋﯿﻦ ﻟﺤﺎﻻت اﻟﺤﻮادث واﻟﻌﻤﻠﯿﺎت و ﻣﺮﺿﻰ اﻟﺴﺮﻃﺎن واﻟﻤﺮﺿﻰ اﻟﺬﯾﻦ ﯾﻌﺎﻧﻮن ﻣﻦ أﻣﺮاض ﻣﺰﻣﻨﺔ ﺗﺘﺴﺒﺐ ﻓﻲ اﺣﺘﯿﺎﺟﻬﻢ اﻟﻤﺴﺘﻤﺮ ﻟﻠﺪم ﻣﻦ ﺧﻼل اﻟﻨﺸﺮ واﻟﺘﻨﻮﯾﻪ ﻋﻠﻰ ﻧﻄﺎق واﺳﻊ ﻓﻲ ﺷﺒﻜﺎت اﻟﺘﻮاﺻﻞ اﻻﺟﺘﻤﺎﻋﻲ  ﺑﺎﻟﺘﻌﺎون ﻣﻊ ﺟﻤﯿﻊ اﻟﻤﺒﺎدرات اﻟﺘﻲ ﺗﻬﺪف ﻟﺤﻞ اﻟﻤﺸﻜﻠﺔ وﺑﺎﻟﺘﻌﺎون ﻣﻊ ﻓﺮﯾﻖ اﻧﻘﺎذ اﻟﺤﯿﺎة ﺑﺠﻤﻌﯿﺔ رﺳﺎﻟﺔ اﻟﺨﯿﺮﯾﺔ
+    </string>
+
+    <string name="ImportantH">
+لكي تستمر الحياة تبرع با الدم
+هل هناك احد يعرف كمية الدم اللي ممكن نتبرع بيها ؟
+وكم المده الفاصله بين كل مرتين ؟
+
+    </string>
+
+
+    <string name="Important_1_H">
+لماذا يجب ان أكون متبرعا با الدم؟
+</string>
+
+    <string name="Important_1_Info">
+ﻛﻞ ﺛﻼث ﺛﻮان ﻫﻨﺎك ﺷﺨﺺ ﯾﺤﺘﺎج إﻟﻰ ﻧﻘﻞ اﻟﺪم
+واﺣﺪ ﻣﻦ ﻛﻞ ﻋﺸﺮة ﻣﺮﺿﻰ ﯾﺪﺧﻠﻮن اﻟﻤﺴﺘﺸﻔﻰ
+ﻓﻲ ﺣﺎﺟﺔ إﻟﻰ ﻧﻘﻞ اﻟﺪم
+دمك يمكن ان ينقذ أربعة  اشخاص عند فصل مكواناته
+وليس شخص واحدا
+ﺗﻌﯿﺪ ﻋﻤﻠﯿﺔ اﻟﺘﺒﺮع ﺑﺎﻟﺪم اﻟﺤﯿﻮﯾﺔ واﻟﻨﺸﺎط ﻟﻠﺠﺴﻢ
+ ﺑﺴﺒﺐ ﺗﺠﺪد ﺧﻼﯾﺎ اﻟﺪم
+يمكن للمتبرع الحصول عاي نتائج فحوصات المسح الخاصه
+به بما فيها فصيلة الدم
+
+    </string>
+
+    <string name="Important_2_H">
+ﻛﯿﻒ ﯾﻤﻜﻦ اﺧﺘﯿﺎر اﻟﻤﺘﺒﺮع ﺑﺎﻟﺪم؟
+    </string>
+
+    <string name="Important_2_Info">
+ﯾﺘﻢ اﺧﺘﯿﺎر اﻟﻤﺘﺒﺮع ﺑﺎﻟﺪم ﻣﻦ ﺧﻼل ﻣﻌﺎﯾﯿﺮ ﻣﺤﺪدة ﻣﻦ اﻟﻔﺤﺺ
+اﻟﻄﺒﻲ واﻟﻤﺨﺒﺮي واﻟﺘﺎرﯾﺦ اﻟﻤﺮﺿﻲ ﺣﯿﺚ ﯾﺘﻢ
+ﺗﺴﺠﯿﻞ اﻟﻤﺘﺒﺮع: ﻋﻨﺪ ﺣﻀﻮره اﻟﻰ ﺑﻨﻚ اﻟﺪم ﺳﯿﻘﻮم ﻣﻮﻇﻒ
+ اﻻﺳﺘﻘﺒﺎل ﺑﺄﺧﺬ ﻣﻌﻠﻮﻣﺎت ﻣﻨﻪ
+ﺗﺤﺪﯾﺪ ﻓﺼﯿﻠﺔ اﻟﺪم: ﻣﻦ اﻟﻔﺼﺎﺋﻞ اﻷرﺑﻊ اﻟﻤﺘﻌﺎرف ﻋﻠﯿﻬﺎ
+ﻗﯿﺎس ﺗﺮﻛﯿﺰ اﻟﻬﯿﻤﻮﺟﻠﻮﺑﯿﻦ ﺧﻀﺎب اﻟﺪم ﻋﻦ ﻃﺮﯾﻖ اﻷﺻﺒﻊ
+ﯾﻔﻀﻞ أن ﯾﻜﻮن اﻟﻮزن ﻣﻦ 50 كجم
+ﻗﯿﺎس اﻟﻨﺒﺾ
+ﺿﻐﻂ اﻟﺪم اقل من 160/90
+ﺑﻌﺪ أن ﯾﻤﺮ اﻟﻤﺘﺒﺮع ﺑﺎﻟﻤﺮاﺣﻞ اﻟﺴﺎﺑﻘﺔ وﺗﺜﺒﺖ ﺻﻼﺣﯿﺘﻪ ﻟﻠﺘﺒﺮع
+ ﯾﻘﻮم اﻟﻄﺒﯿﺐ اﻟﻤﺨﺘﺺ ﺑﺴﺆاﻟﻪ أﺳﺌﻠﺔ ﺑﺴﯿﻄﺔ ﻋﻦ ﺗﺎرﯾﺨﻪ
+اﻟﻤﺮﺿﻲ وﯾﻘﻮم ﺑﺄﺟﺮاء اﻟﻔﺤﺺ اﻟﻄﺒﻲ ﻟﻪ
+    </string>
+
+    <string name="Important_3_H">
+      ﻣﺎ اﻷﺳﺒﺎب اﻟﺘﻲ ﻻ ﯾﻤﻜﻨﻚ ﻣﻌﻬﺎ اﻟﺘﺒﺮع ﺑﺎﻟﺪم؟
+    </string>
+
+    <string name="Important_3_Info">
+        اﻟﺘﺒﺮع ﺑﺎﻟﺪم ﺧﻼل اﻟﺜﻼﺛﺔ أﺷﻬﺮ اﻟﻤﺎﺿﯿﺔ
+        وﺟﻮد أي ﺗﻌﺐ ﻣﻦ اﻟﻤﺘﺎﻋﺐ اﻟﺼﺤﯿﺔ اﻟﺘﺎﻟﯿﺔ
+        ﺟﻤﯿﻊ أﻧﻮاع اﻷﻧﯿﻤﯿﺎ ﻋﺪا أﻧﯿﻤﯿﺎ ﻧﻘﺺ اﻟﺤﺪﯾﺪ
+        أﻣﺮاض اﻟﻘﻠﺐ واﻟﺤﻤﻰ اﻟﺮوﻣﺎﺗﯿﺰﻣﯿﺔ
+        ﻷﻣﺮاض اﻟﺼﺪرﯾﺔ اﻟﻤﺰﻣﻨﺔ
+        ارﺗﻔﺎع اﻟﻀﻐﻂ اﻟﻤﺰﻣﻦ
+        اﻻﻟﺘﻬﺎب اﻟﻜﺒﺪي اﻟﻔﯿﺮوﺳﻲ
+        ﻣﺮض اﻟﺒﻮل اﻟﺴﻜﺮي
+        ﺣﺎﻻت ﺗﻀﺨﻢ اﻟﻜﺒﺪ. ﺣﺎﻻت اﻟﻔﺸﻞ اﻟﻜﻠﻮي
+        ﺣﺎﻻت اﻟﺘﺸﻨﺠﺎت واﻟﺼﺮع واﻹﻏﻤﺎء اﻟﻤﺘﻜﺮر
+        زﯾﺎدة أو ﻧﻘﺺ إﻓﺮازات اﻟﻐﺪة اﻟﺪرﻗﯿﺔ
+        اﻟﺤﻤﻞ
+        أﻣﺮاض ﻧﺰف اﻟﺪم
+        اﻷﻣﺮاض اﻟﻮراﺛﯿﺔ
+        اﻷﻣﺮاض اﻟﻨﻔﺴﯿﺔ
+        أي ﻋﻤﻠﯿﺎت ﺧﻼل ﻓﺘﺮة ﺛﻼﺛﺔ أﺷﻬﺮ
+        إذا ﻛﺎن اﻟﻤﺘﺒﺮع ﯾﻌﺎﻧﻰ ﻣﻦ اﻷﻋﺮاض اﻟﺘﺎﻟﯿﺔ
+        ﻓﻘﺪان ﻏﯿﺮ ﻣﺘﻮﻗﻊ ﻟﻠﻮزن واﻟﺸﻬﯿﺔ
+        ﻋﺮق ﻟﯿﻠﻲ
+        ﺳﺨﻮﻧﺔ ﻟﯿﻠﯿﺔ
+    </string>
+
+    <string name="Important_4_H">
+      ﻛﯿﻔﯿﺔ اﻟﺘﺒﺮع ﺑﺎﻟﺪم؟
+    </string>
+    <string name="Important_4_Info">
+        وذالك عن طريق جمع الدم في كيس يحتوي علي مادة
+        مانعة للتجلط متصل بابره معقمه تستعمل لمره واحده
+        فقط توصل في الوريد في الزراع
+        وتتم عليه التبرع با الدم في فترة زمنيه تقريبا 5 _ 10
+        دقائق في هذا الفتره يكون المتبرع تحت الرعاية
+        الطبيه المباشره
+        ولكن تستغرق الزياره باكلها مدة تتراوح بين 15 _ 20
+        دقيقه
+    </string>
+    <string name="Important_5_H">
+ﻣﺘﻰ ﯾﻤﻜﻦ ﻣﻌﺎودة اﻟﺘﺒﺮع ﺑﺎﻟﺪم؟
+    </string>
+    <string name="Important_5_Info">
+      ينصح با التبرع با الدم بعد مرور 6 اشهر من اخر تبرع با الدم
+في حين انه لتكرار التبرع بالدم قبل ذالك في الفتره
+ من 3 _4 اشهر ولكن يجب ان يكون المتبرع لائق طبيا
+    </string>
+
+    <string name="Important_6_H">
+ﻛﻤﯿﺔ اﻟﺪم اﻟﺘﻲ ﯾﺘﻢ أﺧﺬﻫﺎ ﻣﻦ اﻟﻤﺘﺒﺮع
+ ﻓﻲ اﻟﻤﺮة اﻟﻮاﺣﺪة؟
+    </string>
+    <string name="Important_6_Info">
+  يتم اخذ من 400 الي 450 مليلتر وهو ما يمثل
+حوالي 1/12 من حجم الدم الموجود داخل جسم
+الانسان والذي يتراوح بين 5 الي 6 لترات
+    </string>
+
+    <string name="Important_7_H">
+ﻣﻦ اﻟﻤﺴﺘﻔﯿﺪ ﻣﻦ ﻫﺬا اﻟﺪم؟
+    </string>
+    <string name="Important_7_Info">
+اﻟﻤﺼﺎﺑﻮن ﻓﻲ اﻟﺤﻮادث ﺑﻤﺨﺘﻠﻒ أﻧﻮاﻋﻬﺎ
+ﺣﺎﻻت اﻟﻨﺰﯾﻒ ﻗﺒﻞ اﻟﻮﻻدة وﺑﻌﺪﻫﺎ
+أﺻﺤﺎب اﻟﻌﻤﻠﯿﺎت اﻟﻜﺒﯿﺮة
+اﻷﻃﻔﺎل اﻟﺨﺪج ﻏﯿﺮ ﻣﻜﺘﻤﻠﻲ اﻟﻨﻤﻮ
+ ﺣﺪﯾﺜﻲ اﻟﻮﻻدة ﻻﺧﺘﻼف ﻋﺎﻣﻞ اﻟﺮﯾﺴﻮس ﻟﺪى
+ اﻟﻮاﻟﺪﯾﻦ اﻟﻤﺼﺎﺑﻮن ﺑﺎﻟﺼﻔﺮاء
+ أو ﺳﺮﻃﺎن اﻟﺪم ، ﻓﻘﺮ اﻟﺪم اﻟﻤﻨﺠﻠﻲ اﻟﻤﺼﺎﺑﻮن
+ﺑﺄﻣﺮاض اﻟﺪم ﺗﻜﺴﺮ ﺧﻼﯾﺎ اﻟﺪم
+ ﻣﺮﺿﻰ اﻷورام واﻟﻄﺐ اﻟﻨﻮوي واﻟﻘﻲء اﻟﺪﻣﻮى وﻣﺮﺿﻰ
+ اﻟﻜﺒﺪ واﻟﻐﺴﯿﻞ اﻟﻜﻠﻮي واﻟﺤﺮوق واﻷﻣﺮاض اﻟﻤﺘﻮﻃﻨة
+
+    </string>
+
+
+    <string name="Important_8_H">
+		ﻓﻮاﺋﺪ اﻟﺘﺒﺮع ﺑﺎﻟﺪم؟
+    </string>
+    <string name="Important_8_Info">
+اﻻﻃﻤﺌﻨﺎن ﻋﻠﻰ ﺻﺤﺘﻚ ان اﻟﺘﺒﺮع ﺑﺎﻟﺪم ﻫﻮ ﺷﻬﺎدة
+ﺻﺤﯿﺔ ﺗﺪل ﻋﻠﻰ ﺳﻼﻣﺘﻚ ﺣﯿﺚ أن ﻛﻞ ﻣﺘﺒﺮع ﯾﺨﻀﻊ
+ ﻟﻔﺤﺺ ﻃﺒﻲ ﻟﻠﺠﺴﻢ وﻓﺤﺺ ﻣﺨﺒﺮي ﻋﻠﻰ دﻣﻪ ﻋﻦ
+ﻣﺮض اﻟﺘﻬﺎب اﻟﻜﺒﺪ اﻟﻮﺑﺎﺋﻲ ﺑﻨﻮﻋﯿﻪ واﻟﺘﻮﺟﯿﻪ إﻟﻰ اﻟﺠﻬﺔ
+ اﻟﻤﻨﺎﺳﺒﺔ ﻟﻤﺘﺎﺑﻌﺔ اﻟﺤﺎﻟﺔ ، ﺣﺎﻟﺔ وﺟﻮد أي ﻣﺸﻜﻠﺔ ﻓﺄن
+ﺑﻨﻚ اﻟﺪم ﯾﻘﻮم ﺑﺘﻮﻓﯿﺮ اﻻﺳﺘﺸﺎرة اﻟﻼزﻣﺔ ﻣﻦ ﻗﺒﻞ
+اﺳﺘﺸﺎرﯾﯿﻦ ﻣﺘﺨﺼﺼﯿﻦ ﯾﺴﺎﻋﺪ ﻋﻠﻰ زﯾﺎدة اﻟﺘﺮﻛﯿﺰ
+ واﻟﻨﺸﺎط ﻓﻲ اﻟﻌﻤﻞ وﻋﺪم اﻟﺨﻤﻮل
+ﻟﺪﻣﺎغ ﯾﺴﺎﻋﺪ اﻟﺘﺒﺮع ﻋﻠﻰ ﺗﻨﺸﯿﻂ ﻧﺨﺎع اﻟﻌﻈﻢ ﻓﻲ
+إﻧﺘﺎج ﺧﻼﯾﺎ دم ﺟﺪﯾﺪة ﺗﺴﺘﻄﯿﻊ ﺣﻤﻞ ﻛﻤﯿﺔ أﻛﺒﺮ ﻣﻦ
+اﻷوﻛﺴﺠﯿﻦ إﻟﻰ أﻋﻀﺎء اﻟﺠﺴﻢ اﻟﺮﺋﯿﺴﯿﺔ ﻣﺜﻼ
+ . ﺧﺎﺻﺔ ﻓﻲ ﺣﺎﻟﺔ ﺗﻮﻓﺮ ﻓﺼﯿﻠﺔ اﻟﺪم اﻟﻤﻄﻠﻮﺑﺔ
+    </string>
+
+    <string name="Important_9_H">
+ﻫﻞ ﺗﻮﺟﺪ أي ﺧﻄﻮرة ﻓﻲ اﻟﺘﺒﺮع ﺑﺎﻟﺪم؟
+    </string>
+    <string name="Important_9_Info">
+اﻟﺘﺒﺮع ﺑﺎﻟﺪم ﻻ ﯾﻌﺮض اﻟﻤﺘﺒﺮع ﻷي ﺧﻄﺮ
+ﻣﻦ اﻹﺻﺎﺑﺔ ﺑﺄي ﻣﺮض الأدوات التي تستخدم
+في عملية سحب الدم معقمه ولا تستخدم
+ لشخص اخر
+وﯾﺘﻢ اﻟﺘﺨﻠﺺ ﻣﻨﻬﺎ ﺑﻌﺪ ﻋﻤﻠﯿﺔ اﻟﺘﺒﺮع ﺑﺎﻟﺪم
+    </string>
+
+    <string name="Important_10_H">
+اﻟﺮﻋﺎﯾﺔ ﺑﻌﺪ اﻟﺘﺒﺮع ؟
+    </string>
+    <string name="Important_10_Info">
+يبقي المتبرع علي سرير التبرع لمدة 5 دقائق تحت
+الملاحظه الطبيه ويسمح له با الجلوس بعد التأكد
+ من حالته الطبيه ﻻ ﯾﺴﻤﺢ ﻟﻠﻤﺘﺒﺮع ﺑﺘﺮك اﻟﻤﻜﺎن ﻗﺒﻞ أن
+ ﯾﺄذن ﻟﻪ اﻟﻄﺒﯿﺐأو اﻟﻤﻤﺮﺿﺎت وذﻟﻚ ﺣﺮﺻﺎ ﻋﻠﻰ ﺳﻼﻣﺘﻪ
+    </string>
+
+    <string name="Important_11_H">
+ﻫﻞ ﺗﻮﺟﺪ ﻣﻀﺎﻋﻔﺎت ﻗﺪ ﯾﺘﻌﺮض ﻟﻬﺎ اﻟﻤﺘﺒﺮع؟
+    </string>
+    <string name="Important_11_Info">
+لا توجد مضاعفات للتبرع بالدم طالما قام الطبيب بتوقيع
+الكشف الطبي عليك واقر ملاءمتك لتبرع
+يعوض الجسم كميه الدم التي فقدت خلال ساعات واغلب
+الناس يزاولون انشطتهم العاديع بعد التبرع
+ نادرا ما تحدث بعض الاعراض مثل لدوخه القيء وتزال
+تلقائيا بعد فتره وجيزه
+    </string>
+    <string name="title_activity_doners">Map</string>
+
+
+    <!-- Sign-in status messages -->
+    <string name="signed_in_fmt">Signed in as: %s</string>
+    <string name="signed_in">Signed in</string>
+    <string name="signing_in">Signing in…</string>
+    <string name="signed_out">Signed out</string>
+    <string name="signed_in_err">"Error: please check logs."</string>
+    <string name="error_null_person">
+        Error: Plus.PeopleApi.getCurrentPerson returned null. Ensure that the Google+ API is
+        enabled for your project, you have a properly configured google-services.json file
+        and that your device has an internet connection.
+    </string>
+    <string name="loading">Loading…</string>
+    <string name="auth_code_fmt">Auth Code: %s</string>
+    <string name="id_token_fmt">ID Token: %s</string>
+
+    <!-- Google Play Services error for Toast -->
+    <string name="play_services_error_fmt">Google Play Services Error: %i</string>
+
+    <!-- Button labels -->
+    <string name="sign_out">Sign Out</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="refresh_token">Get Fresh Token</string>
+
+    <!-- Content Description for images -->
+    <string name="desc_google_icon">Google Logo</string>
+
+    <!-- Rationale for asking for Contacts -->
+    <string name="contacts_permission_rationale">Contacts access is needed in order to retrieve your email address.</string>
+
+    <!-- Activity Names and Descriptions -->
+    <string name="name_sign_in_activity">SignInActivity</string>
+    <string name="desc_sign_in_activity">Signing in, signing out, and revoking access.</string>
+    <string name="desc_sign_in_activity_scopes">Signing in, signing out, and revoking access with Google Drive permissions.</string>
+
+    <string name="name_id_token_activity">IdTokenActivity</string>
+    <string name="desc_id_token_activity">Retrieving an ID Token for the user.</string>
+
+    <string name="desc_auth_code_activity">Demonstrate retrieving an auth code for authorizing your server.</string>
+    <string name="name_auth_code_activity">ServerAuthCodeActivity</string>
+
+    <string name="desc_rest_activity">Demonstrate using Google Sign In with a Google REST API</string>
+    <string name="name_rest_activity">RestApiActivity</string>
+
+    <!-- Messages for the Rest API activity -->
+    <string name="connections_fmt">Connections: %1$s</string>
+    <string name="msg_contacts_failed">Get contacts failed.</string>
+
+    <!-- TODO(user): replace with your real server client ID -->
+    <!-- Server Client ID.  This should be a valid Web OAuth 2.0 Client ID obtained
+         from https://console.developers.google.com/ -->
+    <string name="server_client_id">YOUR_SERVER_CLIENT_ID</string>
+    <string name="title_activity_donors_map">Map</string>
+
+</resources>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/dimen16"
+    android:orientation="vertical"
+    android:background="@color/White"
+    tools:context=".inhomefragments.AddDonorFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" استمارة تسجيل المتبرعين"
+                android:textAlignment="center"
+                android:background="@drawable/border"
+                android:padding="@dimen/dimen8"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/dimen20" />
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="16dp"
+                android:hint="الاسم"
+                android:inputType="textPersonName"
+                android:textColorHint="@color/blue_grey_900" />
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="16dp"
+                android:hint="البريد الالكترونى"
+                android:inputType="textEmailAddress"
+                android:textColorHint="@color/blue_grey_800" />
+
+            <EditText
+                android:id="@+id/et_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="16dp"
+                android:hint="العمر"
+                android:inputType="number"
+                android:textColorHint="@color/blue_grey_800" />
+            <EditText
+                android:id="@+id/et_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="16dp"
+                android:hint="الوقت المتاح"
+                android:inputType="text"
+                android:textColorHint="@color/blue_grey_800" />
+            <EditText
+                android:id="@+id/et_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="16dp"
+                android:hint="رقم الموبايل"
+                android:inputType="text"
+                android:textColorHint="@color/blue_grey_800" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="النوع"
+                android:textColor="@color/colorAccentDark"
+                android:textSize="@dimen/dimen16" />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/dimen16"
+                android:layout_marginTop="@dimen/dimen16"
+                android:layout_marginRight="@dimen/dimen16"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioBtn_male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="ذكر"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccentDark"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/radioBtn_female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="انثى"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccentDark"
+                    android:textSize="16dp" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/txtVdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccentDark"
+                android:textSize="@dimen/dimen16" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="نوع المتبرع"
+                android:textColor="@color/colorAccentDark"
+                android:textSize="@dimen/dimen16" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/dimen16"
+                android:layout_marginTop="@dimen/dimen8"
+                android:layout_marginRight="@dimen/dimen16"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioBtn_paymentFreeAdd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="مجانى"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccentDark"
+                    android:textSize="16dp" />
+
+                <RadioButton
+                    android:id="@+id/radioBtn_paymentPaidAdd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="بمقابل مادى"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccentDark"
+                    android:textSize="16dp" />
+            </RadioGroup>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="فصيلة الدم"
+                android:textColor="@color/colorAccentDark"
+                android:textSize="@dimen/dimen16" />
+
+            <Spinner
+                android:id="@+id/spinnerBloodType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen16"
+                android:layout_marginTop="@dimen/dimen8"
+                android:layout_marginRight="@dimen/dimen16"
+                android:background="@drawable/ic_rounded_button"
+                android:padding="@dimen/dimen8"
+                android:textAlignment="center"
+                android:entries="@array/blood_type"
+                android:prompt="@string/bloodType_prompt"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="المحافظة"
+                android:textColor="@color/colorAccentDark"
+                android:textSize="@dimen/dimen16" />
+
+            <Spinner
+                android:id="@+id/spinnerCountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen16"
+                android:layout_marginTop="@dimen/dimen8"
+                android:layout_marginRight="@dimen/dimen16"
+                android:background="@drawable/ic_rounded_button"
+                android:padding="@dimen/dimen8"
+                android:textAlignment="center"
+                android:entries="@array/countries"
+                android:prompt="@string/bloodType_prompt"
+
+                />
+
+
+            <Button
+                android:id="@+id/btn_send"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen8"
+                android:layout_marginTop="@dimen/dimen8"
+                android:layout_marginRight="@dimen/dimen8"
+                android:background="@drawable/ic_rounded_button_green"
+                android:text="حفظ البيانات"
+                android:textSize="@dimen/dimen20"
+                android:textColor="@color/White"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen8"
+                android:layout_marginTop="@dimen/dimen8"
+                android:layout_marginRight="@dimen/dimen8"
+                android:text="@string/et"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorAccentDark"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_upload_file"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen32"
+                android:layout_marginTop="@dimen/dimen8"
+                android:layout_marginRight="@dimen/dimen32"
+                android:background="@drawable/ic_rounded_button"
+                android:text="اختيار ملف"
+                android:textColor="@color/White"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
